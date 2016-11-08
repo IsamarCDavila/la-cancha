@@ -1,0 +1,63 @@
+.contenedor
+{
+	display: inline-block;
+	background-color: #7AB775;
+}
+.cancha
+{
+	border: 1px solid white;
+	width:  800px;
+	height: 400px;
+	display: inline-block;
+	margin:20px; 
+}
+.linea1 , .linea2, .redondo1
+{
+	border: 1px solid white;
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	width:  120px;
+	height: 180px;	
+}
+.linea1
+{
+	right:1px;
+	float: left; 
+}
+.linea2
+{	
+	left:1px;
+	float: right; 
+}
+.redondo1
+{
+	width:  200px;
+	height: 200px;	 
+   	border-radius: 100px;
+   	/*top: 100px;
+   	left: 150px;*/
+ }
+
+.pelota1 ,.pelota2, .pelota3
+{
+	position: relative;
+	display: inline-block;
+}
+.pelota1
+{
+ 	float: left;
+ 	top: 105px;
+ 	right: 10px;
+}
+.pelota2
+{
+ 	left: 70px;
+ 	bottom: 150px;
+}
+.pelota3
+{
+	float: right;
+	top: 250px;
+	right: 5px;
+}
