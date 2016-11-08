@@ -35,8 +35,8 @@
 	width:  200px;
 	height: 200px;	 
    	border-radius: 100px;
-   	/*top: 100px;
-   	left: 150px;*/
+   	top: 100px;
+   	left: 150px;
  }
 
 .pelota1 ,.pelota2, .pelota3
